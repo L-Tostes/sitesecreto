@@ -21,16 +21,20 @@
             margin-top: 20px;
             max-width: 90%;
             height: auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
     <h1>Prepare-se...</h1>
-    <p id="countdown">60</p>
+    <p id="countdown">15</p>
     <img id="hiddenImage" src="imagem.jpg" alt="Surpresa">
     
     <script>
-        let timeLeft = 60;
+        let timeLeft = 15;
         const countdownElement = document.getElementById("countdown");
         const hiddenImage = document.getElementById("hiddenImage");
 
@@ -49,3 +53,6 @@
     </script>
 </body>
 </html>
+
+        
+      
